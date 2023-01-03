@@ -34,6 +34,27 @@ body {
 	background-color: black;
 }
 
+.ball{
+	background-color: #fff;
+	width: 16px;
+	height: 16px;
+	border-radius: 100%;
+	position: relative;
+	left: 109px;
+	top: -8px;
+	z-index: 8;
+}
+
+.ballTrack{
+	width: 212px;
+	height: 207px;
+	position: absolute;
+	left: 47.5px;
+	top: 50px;
+	border-radius: 100%;
+	z-index:7;
+}
+
 /*wheel*/
 @keyframes wheelRotate {
 	from {
@@ -78,7 +99,7 @@ body {
 	background-color: #000;
 	border-radius: 100%;
 	opacity: .5;
-	z-index: 6;
+	z-index: 5;
 }
 
 .pocketsRim {
@@ -89,7 +110,7 @@ body {
 	height: 235px;
 	border-radius: 100%;
 	border: 3px solid silver;
-	z-index: 5;
+	z-index: 4;
 }
 
 .wheelNumber{
@@ -101,7 +122,7 @@ body {
 	border: 3px solid #9f9a9a;
 	border-radius: 100%;
 	background: black;
-	z-index: 7;
+	z-index: 6;
 }
 
 .wheelNumber p {
