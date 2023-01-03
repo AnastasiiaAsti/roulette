@@ -4,6 +4,7 @@ const WHEEL = document.getElementById('wheel');
 const BALL_TRACK = document.getElementsByClassName('ballTrack');
 const BETTING_BOARD = document.getElementById('board');
 const WINNENG_NUMBER = document.getElementById('wheelNumber');
+const SPIN_BTN = document.getElementById('spin_btn');
 
 /*----- app's state (variables) -----*/
 
@@ -12,10 +13,15 @@ let wheelnumbers = [0, 26, 3, 35, 12, 28, 7, 29, 18, 22, 9, 31, 14, 20, 1, 33, 1
 let betNumber = []
 
 /*----- event listeners -----*/
-BETTING_BOARD.addEventListener('click', handleClick)
+BETTING_BOARD.addEventListener('click', handleClick);
+SPIN_BTN.addEventListener('click', handleSpinClick);
 
 function handleClick(evt) {
     console.log(evt.target)
+}
+
+function handleSpinClick() {
+    console.log('clicked')
 }
 
 /*----- functions -----*/
