@@ -82,6 +82,32 @@ body {
 	z-index: 5;
 }
 
+.wheelNumber{
+	position: absolute;
+	top: 62px;
+	left: 61px;
+	height: 180px;
+	width: 180px;
+	border: 3px solid #9f9a9a;
+	border-radius: 100%;
+	background: black;
+	z-index: 7;
+}
+
+.wheelNumber p {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	height: 160px;
+}
+
+.wheelNumber p span {
+	font-size: larger;
+}
+
+
+
 .block {
 	transition: all 1s;
 	position: absolute;
