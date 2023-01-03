@@ -1,13 +1,13 @@
 body {
     box-sizing: border-box;
     background: green;
+	padding-top: 50px;
 }
 
 #wheel {
     display: flex;
     flex-direction: column;
 	justify-content: center;
-    height: 33vh;
 	padding: 20px;
 	color: #fff;
 }
@@ -15,6 +15,8 @@ body {
 #board {
 	color: #fff;
     display: flex;
+	border: 1px solid white;
+	width: fit-content;
 }
 
 #board .cell {
@@ -22,6 +24,14 @@ body {
     width: 30px;
     text-align: center;
     border: 1px solid white;
+}
+
+.red {
+	background-color: #E0080B;
+}
+
+.black {
+	background-color: black;
 }
 
 /*wheel*/
