@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
 	justify-content: center;
-	padding: 20px;
+	padding: 10px;
 	color: #fff;
 }
 
@@ -50,7 +50,7 @@ body {
 	border-radius: 100%;
 	position: relative;
 	left: 109px;
-	top: -8px;
+	top: -19px;
 	z-index: 8;
 }
 
@@ -83,7 +83,7 @@ body {
 }
 
 .wheel {
-	height: 312px;
+	height: 270px;
 	width: 312px;
 	position: relative;
 }
@@ -101,7 +101,6 @@ body {
 
 .pockets {
 	position: absolute;
-	top: 37px;
 	left: 37px;
 	width: 235px;
 	height: 235px;
@@ -113,7 +112,6 @@ body {
 
 .pocketsRim {
 	position: absolute;
-	top: 34px;
 	left: 34px;
 	width: 235px;
 	height: 235px;
@@ -124,7 +122,6 @@ body {
 
 .wheelNumber{
 	position: absolute;
-	top: 62px;
 	left: 61px;
 	height: 180px;
 	width: 180px;
@@ -145,8 +142,6 @@ body {
 .wheelNumber p span {
 	font-size: larger;
 }
-
-
 
 .block {
 	transition: all 1s;
