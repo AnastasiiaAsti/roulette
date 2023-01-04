@@ -34,7 +34,7 @@ body {
 	border: none;
 	background-color: gold;
 	margin: 25px;
-}
+} 
 
 .red {
 	background-color: #E0080B;
@@ -63,6 +63,10 @@ body {
 	top: 50px;
 	border-radius: 100%;
 	z-index:7;
+}
+
+#winning_message {
+	color: #fff;
 }
 
 /*wheel*/

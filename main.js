@@ -6,6 +6,7 @@ const BETTING_BOARD = document.getElementById('board');
 const WINNING_NUMBER = document.getElementById('wheelNumber');
 const SPIN_BTN = document.getElementById('spin_btn');
 const WHEEL_NUMS = document.querySelectorAll('.sect span')
+const WINNING_MSG = document.getElementById('winning_message')
 
 /*----- app's state (variables) -----*/
 
@@ -52,6 +53,7 @@ function setWheel() {
 setWheel()
 
 
+
 function spin() {
     let winningSpin = Math.floor(Math.random() * 36)
     // spinWheel(winningSpin);
@@ -62,4 +64,5 @@ function spin() {
         console.log(betNumber)
     }, 1000);
 }
+
 
