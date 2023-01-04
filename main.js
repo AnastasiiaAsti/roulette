@@ -22,7 +22,8 @@ SPIN_BTN.addEventListener('click', spin);
 function handleClick(evt) {
     let cell = evt.target;
     let value = cell.getAttribute('value')
-    console.log(value)
+    boardNumber.push(parseInt(value))
+    console.log(boardNumber)
 }
 
 function handleSpinClick() {
